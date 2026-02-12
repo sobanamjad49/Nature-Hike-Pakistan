@@ -67,12 +67,13 @@ function SkarduDays10() {
     <div>
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 m-6">
         {HunzaSkardu10DaysImages.map((img, index) => (
-          <img
-            key={index}
-            src={img}
-            alt={`Hunza & Skardu 10 days tour image ${index + 1}`}
-            className="rounded-xl w-full h-40 md:h-60 lg:h-full object-cover"
-          />
+          <a key={index} href="#" className="block rounded-xl">
+            <div className="rounded-xl p-2">
+              <img
+                src={img} alt="" className="rounded-xl h-40 md:h-60 lg:h-full w-full object-cover brightness-75"
+              />
+            </div>
+          </a>
         ))}
       </div>
 

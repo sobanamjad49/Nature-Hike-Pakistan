@@ -70,8 +70,8 @@ function SkarduDays5() {
           <img
             key={index}
             src={img}
-            alt={`Fairy Meadows, Hunza & Skardu tour image ${index + 1}`}
-            className="rounded-xl w-full h-40 md:h-60 lg:h-full object-cover"
+            alt={`Fairy Meadows, Hunza & Skardu tour ${index + 1}`}
+            className="rounded-xl h-40 md:h-60 lg:h-full w-full object-cover brightness-75"
           />
         ))}
       </div>

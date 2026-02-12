@@ -72,7 +72,7 @@ function Home() {
             className="relative overflow-hidden block p-2 rounded-xl"
           >
             <img
-              src={item.img}
+              src={item.img} alt=""
               className="rounded-xl h-40 md:h-60 lg:h-full w-full object-cover brightness-75    hover:scale-[1.02] pansition-pansform duration-1000
 "
             />
