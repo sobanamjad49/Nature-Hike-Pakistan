@@ -195,6 +195,7 @@ function Home() {
               <div className="relative group rounded-lg overflow-hidden">
                 <img
                   src={item.image}
+                  alt=""
                   className="rounded-lg shadow-2xl pansition duration-300"
                 />
 
@@ -326,6 +327,7 @@ function Home() {
             <a key={index} href={item.link} className="relative  rounded-xl ">
               <img
                 src={item.image1}
+                alt=""
                 className="rounded-xl h-40 md:h-60 lg:h-full w-full object-cover brightness-75    duration-1000
 "
               />
@@ -496,6 +498,7 @@ function Home() {
       <div className="p-9 m-5  flex justify-center">
         <img
           className="lg:max-w-xl"
+          alt=""
           src="https://naturehikepakistan.pk/wp-content/uploads/2025/10/private-honeymoon-tour-packages-min-scaled.png"
         />
       </div>

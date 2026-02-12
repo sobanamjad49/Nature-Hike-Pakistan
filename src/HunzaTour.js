@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect} from "react";
 import {
   HunzaTours,
   HunzaAirTours,
@@ -12,7 +12,7 @@ function HunzaTour() {
     window.scrollTo(0, 0);
   }, []);
 
-  const [openIndex, setOpenIndex] = useState(null);
+
 
  
   return (

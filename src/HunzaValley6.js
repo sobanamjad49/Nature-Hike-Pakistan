@@ -223,7 +223,10 @@ function HunzaValley6() {
         <div className="bg-yellow-100 mt-3 border-l-4 border-yellow-500 p-5 rounded-lg md:col-span-2">
           <p className="text-sm">
             Please read the
-            <a className="text-blue-600 underline">Terms & Conditions</a>
+           <a href="/" className="text-blue-600 underline">
+  Terms & Conditions
+</a>
+
             carefully for better understanding of the trip flow.
           </p>
         </div>
