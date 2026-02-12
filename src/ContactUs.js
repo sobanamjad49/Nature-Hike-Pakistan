@@ -32,7 +32,7 @@ const ContactUs = () => {
     }
 
     setLoading(true);
-    setStatusMessage("Thank you! Your message has been captured on this page (no backend connected).");
+    setStatusMessage("Thank you! Your message has been captured on this page .");
     setFormData({
       fullName: "",
       email: "",

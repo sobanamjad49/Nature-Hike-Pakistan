@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useCallback } from "react";
 import axios from "axios";
 
 const AdminLogin = () => {
@@ -12,18 +12,20 @@ const AdminLogin = () => {
   const headers = { Authorization: `Bearer ${token}` };
 
   // Fetch all admins
-  const fetchAdmins = async () => {
+  const fetchAdmins = useCallback(async () => {
     try {
-      const res = await axios.get("http://localhost:4000/api/admin/all", { headers });
+      const res = await axios.get("http://localhost:4000/api/admin/all", {
+        headers,
+      });
       if (res.data.success) setAdmins(res.data.admins);
     } catch (err) {
       console.error(err);
     }
-  };
+  }, [headers]);
 
   useEffect(() => {
     fetchAdmins();
-  }, []);
+  }, [fetchAdmins]);
 
   const handleChange = (e) => {
     setForm({ ...form, [e.target.name]: e.target.value });
