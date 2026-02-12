@@ -49,7 +49,7 @@ import ContactUs from "./ContactUs";
 import About from "./About";
 
 // Admin Pages
-import AdminLogin from "./pages/AdminLogin";
+
 import ProtectedRoute from "./components/ProtectedRoute";
 
 import ToursAdmin from "./pages/ToursAdmin";
@@ -144,7 +144,7 @@ function AppContent() {
           <Route path="tours" element={<ToursAdmin />} />
           <Route path="bookings" element={<BookingsAdmin />} />
           <Route path="contacts" element={<ContactsAdmin />} />
-          <Route path="adminlogin" element={<AdminLogin />} />
+
         </Route>
       </Routes>
 
