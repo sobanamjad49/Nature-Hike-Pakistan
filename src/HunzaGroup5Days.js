@@ -68,7 +68,7 @@ function HunzaGroup5Days() {
           <img
             key={index}
             src={img}
-            alt={`Hunza group 5 days tour image ${index + 1}`}
+            alt={`Hunza group 5 days tour  ${index + 1}`}
             className="rounded-xl w-full h-40 md:h-60 lg:h-full object-cover"
           />
         ))}

@@ -14,8 +14,7 @@ function HunzaTour() {
 
   const [openIndex, setOpenIndex] = useState(null);
 
-  const toggleFAQ = (index) =>
-    setOpenIndex(openIndex === index ? null : index);
+ 
   return (
     <div>
       <p className="font-bold text-center text-4xl p-1 pt-5">
@@ -48,6 +47,7 @@ function HunzaTour() {
       <div className="rounded-xl p-2">
         <img
           src={item.img}
+          alt=""
           className="rounded-xl h-40 md:h-60 lg:h-full w-full object-cover brightness-75"
         />
         <p className="text-sm font-bold font-mono text-center p-2">
@@ -79,6 +79,7 @@ function HunzaTour() {
     >
             <img
               src={item.img}
+              alt=""
               className="rounded-xl h-40 md:h-60 lg:h-full w-full object-cover brightness-75    
    "
             />
@@ -107,6 +108,7 @@ function HunzaTour() {
     >
             <img
               src={item.img}
+              alt=""
               className="rounded-xl h-40 md:h-60 lg:h-full w-full object-cover brightness-75    
    "
             />
@@ -205,12 +207,12 @@ function HunzaTour() {
                     {item.text}
                   </p>
                 </div>
-                <img src={item.img} className="w-72 object-cover shadow p-2" />
+                <img src={item.img} alt="" className="w-72 object-cover shadow p-2" />
               </>
             ) : (
               <>
                 {/* IMAGE LEFT - TEXT RIGHT (odd index) */}
-                <img src={item.img} className="w-72 object-cover shadow p-2" />
+                <img src={item.img} alt="" className="w-72 object-cover shadow p-2" />
                 <div>
                   <h2 className="text-3xl text-center font-bold mb-4">
                     {item.title}

@@ -67,7 +67,7 @@ function SkarduDays10() {
     <div>
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 m-6">
         {HunzaSkardu10DaysImages.map((img, index) => (
-          <a key={index} href="#" className="block rounded-xl">
+          <a key={index} href="https://example.com" className="block rounded-xl">
             <div className="rounded-xl p-2">
               <img
                 src={img} alt="" className="rounded-xl h-40 md:h-60 lg:h-full w-full object-cover brightness-75"

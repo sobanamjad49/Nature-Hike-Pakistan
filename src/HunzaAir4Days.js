@@ -69,6 +69,7 @@ function HunzaAir4Days() {
           <img
             key={index}
             src={img}
+            alt=""
             className="rounded-xl w-full h-40 md:h-60 lg:h-full object-cover"
           />
         ))}

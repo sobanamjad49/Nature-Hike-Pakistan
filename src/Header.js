@@ -77,6 +77,7 @@ function Header() {
            <img
               className="w-44"
               src="https://naturehikepakistan.pk/wp-content/uploads/2021/08/Logo.png"
+              alt="NatureHike Pakistan Logo"
             />
           </div></Link> 
 
@@ -183,6 +184,7 @@ function Header() {
         <img
           className="w-40"
           src="https://naturehikepakistan.pk/wp-content/uploads/2021/08/Logo.png"
+           alt=""
         />
       </div>
     </Link>

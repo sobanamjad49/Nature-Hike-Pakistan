@@ -24,7 +24,7 @@ const ContactUs = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    const { fullName, email, phone, message } = formData;
+    const { fullName, email, message } = formData;
 
     if (!fullName || !email || !message) {
       alert("Full Name, Email and Message are required");
@@ -145,12 +145,14 @@ const ContactUs = () => {
 
       {/* MAP */}
       <div className="mt-10">
-        <iframe
-          className="w-full h-72 md:h-96"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13606.186593825628!2d74.352!3d31.5204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sLahore!5e0!3m2!1sen!2s!4v000000"
-          allowFullScreen=""
-          loading="lazy"
-        ></iframe>
+       <iframe
+  className="w-full h-72 md:h-96"
+  src="https://www.google.com/maps/embed?pb=..."
+  title="Lahore location map"
+  allowFullScreen=""
+  loading="lazy"
+></iframe>
+
       </div>
     </div>
   );

@@ -68,7 +68,7 @@ function HunzaAir6Days() {
           <img
             key={index}
             src={img}
-            alt={`Air Hunza 6 days tour image ${index + 1}`}
+            alt={`Air Hunza 6 days tour  ${index + 1}`}
             className="rounded-xl w-full h-40 md:h-60 lg:h-full object-cover"
           />
         ))}

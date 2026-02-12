@@ -64,7 +64,8 @@ function HunzaDays5() {
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 m-6">
         {HunzaDay5.map((item, index) => (
           <div key={index}>
-            <img src={item.img} />
+            <img src={item.img} alt="" />
+            
           </div>
         ))}
       </div>
@@ -229,7 +230,7 @@ function HunzaDays5() {
           {/* Note */}
           <div className="bg-yellow-100 border-l-4 border-yellow-500 p-5 rounded-lg md:col-span-2">
             <p className="text-sm">
-              Please read the{" "}
+              Please read the
               <a className="text-blue-600 underline">Terms & Conditions</a>{" "}
               carefully for better understanding of the trip flow.
             </p>
